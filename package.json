@@ -1,0 +1,8 @@
+{
+  "name": "dune-email-statistics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ItVen/dune-email-statistics.git",
+  "author": "Aven <751733381@qq.com>",
+  "license": "MIT"
+}
