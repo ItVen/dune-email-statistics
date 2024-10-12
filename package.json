@@ -8,7 +8,10 @@
   "scripts": {
     "dune": "ts-node src/dune-pase.ts",
     "wallet-address": "ts-node src/wallet-address.ts",
-    "payment-address": "ts-node src/payment-address.ts"
+    "payment-address": "ts-node src/payment-address.ts", 
+    "demo-email": "ts-node src/send_demo.ts",
+    "payment-email": "ts-node src/send_payment_email.ts",
+    "wallet-email": "ts-node src/send_wallet_email.ts"
   },
   "devDependencies": {
     "@types/node": "^22.7.5",
@@ -18,6 +21,7 @@
   },
   "dependencies": {
     "@duneanalytics/client-sdk": "^0.2.4",
+    "@sendgrid/mail": "^8.1.3",
     "add": "^2.0.6",
     "csv-parser": "^3.0.0",
     "csv-writer": "^1.6.0",
