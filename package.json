@@ -4,5 +4,24 @@
   "main": "index.js",
   "repository": "git@github.com:ItVen/dune-email-statistics.git",
   "author": "Aven <751733381@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dune": "ts-node src/dune-pase.ts",
+    "wallet-address": "ts-node src/wallet-address.ts",
+    "payment-address": "ts-node src/payment-address.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "eslint": "^9.12.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@duneanalytics/client-sdk": "^0.2.4",
+    "add": "^2.0.6",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.5",
+    "yarn": "^1.22.22"
+  }
 }
